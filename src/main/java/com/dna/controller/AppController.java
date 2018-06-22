@@ -21,7 +21,7 @@ public class AppController extends BaseController {
 
 	@RequestMapping(value = "/generate", method = RequestMethod.POST)
 	public String generate(@RequestBody final User user) {
-//adding comments dfdsfsd sdfds
+//adding comments dfdsfsd sdfds jhhbg
 		return jwtGenerator.generate(user);
 	}
 
